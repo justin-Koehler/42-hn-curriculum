@@ -9,10 +9,10 @@ You are not allowed to use standard functions in future 42 projects. From now on
 ## Core Concepts to Understand
 
 Before writing code, make sure you understand these basic concepts:
-* **Pointers & Memory Addresses**: How variables are stored and how to move through arrays using memory addresses.
-* **Typecasting**: Converting one data type to another (especially `(char *)` and `(void *)`).
-* **Void Pointers (`void *`)**: Generic pointers that can point to any data type. Essential for memory functions like `memset` or `memcpy`.
-* **Dynamic Memory (`malloc` & `free`)**: Allocating memory on the heap and preventing memory leaks.
+* [Pointers & Memory Addresses](Guides/pointermemoryadresses.md): How variables are stored and how to move through arrays using memory addresses.
+* [Typecasting](Guides/typecasting.md): Converting one data type to another (especially `(char *)` and `(void *)`).
+* [Void Pointers](Guides/voidpointers.md): Generic pointers that can point to any data type. Essential for memory functions like `memset` or `memcpy`.
+* [Dynamoc Memory](Guides/dynamicmemory.md)(`malloc` & `free`)**: Allocating memory on the heap and preventing memory leaks.
 
 ## Project Structure
 

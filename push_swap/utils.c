@@ -6,7 +6,7 @@
 /*   By: jukohler <jukohler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/12 16:40:00 by jukohler          #+#    #+#             */
-/*   Updated: 2026/06/12 19:02:29 by jukohler         ###   ########.fr       */
+/*   Updated: 2026/06/16 17:05:45 by jukohler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,5 +89,5 @@ double	compute_disorder(t_stack *stack)
 		}
 		i = i->next;
 	}
-	return (((double)mistakes / total_pairs) * 100.0);
+	return (((double)mistakes / total_pairs));
 }

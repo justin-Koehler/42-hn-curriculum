@@ -6,7 +6,7 @@
 /*   By: jukohler <jukohler@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/12 19:00:00 by jukohler          #+#    #+#             */
-/*   Updated: 2026/06/12 19:06:04 by jukohler         ###   ########.fr       */
+/*   Updated: 2026/06/16 17:19:58 by jukohler         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,15 +42,14 @@ void	exec_swap(t_stack **a, t_stack **b, char type, t_bench *bnch)
 
 void	exec_push(t_stack **dest, t_stack **src, char type, t_bench *bnch)
 {
+	push(dest, src);
 	if (type == 'a')
 	{
-		push(dest, src);
 		bnch->pa++;
 		ft_putstr_fd("pa\n", 1);
 	}
 	else if (type == 'b')
 	{
-		push(dest, src);
 		bnch->pb++;
 		ft_putstr_fd("pb\n", 1);
 	}

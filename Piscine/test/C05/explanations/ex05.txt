@@ -1,0 +1,24 @@
+Ex05 – ft_sqrt
+
+Goal (in simple words):
+Return the integer square root if nb is a perfect square, otherwise 0.
+
+What you are expected to do:
+- If nb < 0, return 0.
+- Check i * i for i = 0, 1, 2, ...
+- If i * i == nb, return i.
+- If no match, return 0.
+
+How to write it (step-by-step):
+1) If nb < 0, return 0.
+2) Start i = 0.
+3) While i * i <= nb:
+   - If i * i == nb, return i.
+   - i++
+4) Return 0.
+
+Why it works:
+- Only perfect squares have an integer root.
+
+Beginner tips:
+- Use long for i to avoid overflow in i * i.

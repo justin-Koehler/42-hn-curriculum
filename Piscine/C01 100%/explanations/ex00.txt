@@ -1,0 +1,20 @@
+Ex00 – ft_ft
+
+Goal (in simple words):
+Set the value of an integer to 42 using a pointer.
+
+What you are expected to do:
+- The function receives a pointer to int.
+- It must change the value at that address to 42.
+
+How to write it (step-by-step):
+1) Use *nbr to access the value at the pointer.
+2) Assign 42: *nbr = 42;
+
+Why it works:
+- The pointer points to the original variable, so changing *nbr changes it directly.
+
+Beginner tips:
+- A pointer stores an address.
+- *pointer means “the value at that address”.
+- Do not print anything.

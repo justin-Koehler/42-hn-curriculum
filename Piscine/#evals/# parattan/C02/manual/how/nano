@@ -1,0 +1,53 @@
+NANO
+====
+
+Simple text editor.
+
+
+BASIC
+-----
+nano file.txt
+
+Opens file in editor.
+
+Create new file:
+  nano newfile.txt
+
+
+COMMANDS
+--------
+Ctrl+O          Save (write out)
+Ctrl+X          Exit
+Ctrl+K          Delete line
+Ctrl+U          Undo
+Ctrl+Y          Redo
+Ctrl+A          Go to start of line
+Ctrl+E          Go to end of line
+
+
+NAVIGATION
+----------
+Arrow keys      Move cursor
+Page Up/Down    Scroll
+Ctrl+Home       Start of file
+Ctrl+End        End of file
+
+
+FIND & REPLACE
+---------------
+Ctrl+W          Search
+Ctrl+\          Find & replace
+
+
+SAVE & EXIT
+-----------
+Ctrl+O + Enter  Save
+Ctrl+X          Exit
+Ctrl+X (unsaved) Ask to save
+
+
+TIPS
+----
+Easiest editor for beginners.
+Perfect for quick edits.
+Press ? for help inside nano.

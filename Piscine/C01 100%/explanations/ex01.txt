@@ -1,0 +1,19 @@
+Ex01 – ft_ultimate_ft
+
+Goal (in simple words):
+Set an integer to 42 using a chain of pointers.
+
+What you are expected to do:
+- The function receives a pointer to a pointer ... 9 levels deep.
+- It must set the final int to 42.
+
+How to write it (step-by-step):
+1) Use *********nbr to reach the int.
+2) Assign 42 to it.
+
+Why it works:
+- Each * follows one level of indirection until you reach the actual int.
+
+Beginner tips:
+- Count the * carefully (9 stars).
+- Do not print anything.

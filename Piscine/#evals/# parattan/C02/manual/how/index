@@ -1,0 +1,72 @@
+HOW - MANUAL INDEX
+==================
+
+Available help pages:
+
+
+C BASICS
+--------
+c               Programming in C
+
+
+C CONCEPTS
+----------
+c-variables     Store data
+c-functions     Reusable code blocks
+c-pointers      Memory addresses
+c-arrays        Multiple values
+c-strings       Text and characters
+c-loops         Repeat code
+c-if-else       Make decisions
+c-recursion     Functions calling themselves
+c-memory        Allocate and free memory
+
+
+C BUILD TOOLS
+-------------
+gcc             C compiler
+make            Build tool
+
+
+GIT BASICS
+----------
+git             How Git works
+
+
+GIT COMMANDS
+------------
+git-clone       Download a repository
+git-status      Check repository changes
+git-add         Stage files for commit
+git-commit      Save changes permanently
+git-pull        Download remote changes
+git-push        Upload your commits
+
+
+SHELL BASICS
+------------
+shell           Command-line interface
+
+
+SHELL COMMANDS
+--------------
+ls              List files
+cd              Change directory
+mkdir           Create directory
+cat             Display file contents
+pwd             Print working directory
+rm              Delete files
+cp              Copy files
+mv              Move or rename
+touch           Create empty file
+echo            Print text
+grep            Search for text
+find            Search for files
+nano            Simple editor
+vim             Powerful editor
+chmod           Change permissions
+sudo            Admin rights
+
+
+Use: how <topic>
+Example: how git clone

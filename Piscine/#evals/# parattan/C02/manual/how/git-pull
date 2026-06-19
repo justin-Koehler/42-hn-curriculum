@@ -1,0 +1,40 @@
+GIT PULL
+========
+
+Download changes from remote repository.
+
+
+BASIC
+-----
+git pull
+
+Gets latest changes from the remote and merges them.
+
+
+WHAT IT DOES
+------------
+• Downloads new commits
+• Updates your local branch
+• Merges changes automatically
+
+
+WHEN TO USE
+-----------
+Before you start working each day.
+When others pushed new code.
+
+
+OPTIONS
+-------
+Pull specific branch:
+  git pull origin main
+
+Pull without merge:
+  git pull --rebase
+
+
+ERRORS
+------
+"merge conflict"     → Fix conflicts manually
+"no remote"          → Add remote first
+"uncommitted changes" → Commit or stash first

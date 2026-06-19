@@ -1,0 +1,28 @@
+Exercise 02: ft_ultimate_range
+
+Goal: Create a range array and return its size.
+
+What it does:
+- Allocates array from min to max-1
+- Stores array pointer in *range (via double pointer)
+- Returns the size of the array
+
+Return values:
+- Positive number: success (the size)
+- 0: invalid range (min >= max), sets *range to NULL
+- -1: malloc failed, sets *range to NULL
+
+Key points:
+- Use double pointer (int **range) to modify caller's pointer
+- Always set *range = NULL before returning 0 or -1
+- The size is useful information for the caller
+
+Example:
+int *arr;
+int size = ft_ultimate_range(&arr, 5, 10);
+// size = 5, arr contains [5, 6, 7, 8, 9]
+
+Common mistakes:
+- Not setting *range = NULL on error
+- Confusing when to return 0 vs -1
+- Not understanding double pointers

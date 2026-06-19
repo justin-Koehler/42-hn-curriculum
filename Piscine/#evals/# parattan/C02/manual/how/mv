@@ -1,0 +1,45 @@
+MV
+==
+
+Move or rename files.
+
+
+BASIC
+-----
+mv old.txt new.txt
+
+Renames file.
+
+
+MOVE FILE
+---------
+mv file.txt folder/
+
+Moves file into folder.
+
+
+MOVE FOLDER
+-----------
+mv old-name new-name
+
+Renames folder.
+
+
+MOVE MULTIPLE
+-------------
+mv file1.txt file2.txt folder/
+
+Moves both files into folder.
+
+
+WHAT IT DOES
+------------
+• Original is removed
+• File goes to new location
+• Same as cut-paste
+
+
+ERRORS
+------
+"no such file"      → File doesn't exist
+"permission denied" → No write access

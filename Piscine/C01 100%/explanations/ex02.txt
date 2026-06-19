@@ -1,0 +1,20 @@
+Ex02 – ft_swap
+
+Goal (in simple words):
+Swap the values of two integers using pointers.
+
+What you are expected to do:
+- The function receives two int pointers.
+- After the function, their values are exchanged.
+
+How to write it (step-by-step):
+1) Store *a in a temporary variable.
+2) Set *a to *b.
+3) Set *b to the temporary value.
+
+Why it works:
+- The temp variable prevents losing one value during the swap.
+
+Beginner tips:
+- You must use a temporary variable.
+- Do not print anything.

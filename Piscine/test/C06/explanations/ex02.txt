@@ -1,0 +1,16 @@
+Ex02 – ft_rev_params
+
+Goal (simple):
+Print all arguments (except argv[0]) in reverse order.
+
+What is expected:
+- main function is required.
+- Output argv[argc - 1] down to argv[1], each followed by a newline.
+
+How to write it (step by step):
+1) Start i = argc - 1.
+2) While i > 0: print argv[i], then i--.
+3) After each argument, print a newline.
+
+Why it works:
+- Iterating backwards reverses the argument order.

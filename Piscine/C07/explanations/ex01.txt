@@ -1,0 +1,23 @@
+Exercise 01: ft_range
+
+Goal: Create an array of integers from min to max-1.
+
+What it does:
+- Takes min and max as parameters
+- Creates an array containing: min, min+1, min+2, ..., max-1
+- Returns pointer to the array
+
+Key points:
+- Return NULL if min >= max (invalid range)
+- Array size is (max - min)
+- Use malloc to allocate: sizeof(int) * size
+- Fill array with consecutive integers starting from min
+
+Example:
+ft_range(5, 10) returns array: [5, 6, 7, 8, 9]
+ft_range(10, 5) returns NULL
+
+Common mistakes:
+- Using (max - min + 1) as size (max is excluded!)
+- Not handling min >= max case
+- Allocating wrong size (using sizeof(char) instead of sizeof(int))

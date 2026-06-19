@@ -1,0 +1,31 @@
+PWD
+===
+
+Print working directory.
+
+
+BASIC
+-----
+pwd
+
+Shows your current location.
+
+
+OUTPUT
+------
+/home/user/project/src
+
+This is your full path from root.
+
+
+WHEN TO USE
+-----------
+• Confused about location
+• Need path for commands
+• Before saving files
+
+
+TIPS
+----
+Use pwd before running commands.
+Helps you understand where you are.

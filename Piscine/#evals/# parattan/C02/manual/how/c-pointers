@@ -1,0 +1,57 @@
+C - POINTERS
+=============
+
+Variables that store memory addresses.
+
+
+WHAT IS A POINTER
+-----------------
+A pointer holds the memory address of another variable.
+
+int x = 5;
+int *ptr = &x;   ← ptr points to x
+
+
+SYNTAX
+------
+int *ptr;           Declare pointer to int
+*ptr = 10;          Change value at address
+int value = *ptr;   Read value at address
+&variable;          Get address of variable
+
+
+OPERATORS
+---------
+&   Get address (address-of)
+*   Get value (dereference)
+
+
+EXAMPLE
+-------
+int age = 25;
+int *ptr_age = &age;
+
+printf("%d\n", *ptr_age);      Prints: 25
+printf("%p\n", ptr_age);       Prints: 0x7fff5fbff8ac
+
+
+WHY USE POINTERS
+----------------
+• Pass by reference
+• Dynamic memory
+• Complex data structures
+• Efficient function calls
+
+
+COMMON ERRORS
+-------------
+*ptr without declaring → Compiler error
+NULL pointer access → Crash
+Wrong type pointer → Wrong data
+
+
+TIPS
+----
+Draw diagrams to understand.
+Pointers take practice.
+Start simple with single pointers.

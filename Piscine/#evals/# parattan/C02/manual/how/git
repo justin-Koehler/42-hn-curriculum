@@ -1,0 +1,63 @@
+GIT
+===
+
+Version control for your code.
+
+
+WHAT IT IS
+----------
+Git tracks every change you make to your files.
+Like a time machine for your project.
+
+
+HOW IT WORKS
+------------
+1. You work on files
+2. You stage changes (git add)
+3. You commit (git commit)
+4. Git saves a snapshot
+
+Each commit is a checkpoint you can return to.
+
+
+WHY USE IT
+----------
+• Undo mistakes easily
+• Try new ideas safely
+• Work with others
+• Keep complete history
+• Backup your work
+
+
+THE BASICS
+----------
+git init        Start tracking
+git add .       Stage all changes
+git commit      Save snapshot
+git status      See what changed
+
+
+BRANCHES
+--------
+Branches let you work on ideas separately.
+
+Main branch:  Your stable code
+New branch:   Experiment safely
+
+Switch back and forth without losing work.
+
+
+REMOTE
+------
+Push your code to GitHub/GitLab.
+Others can download and contribute.
+
+
+LEARN MORE
+----------
+how git clone
+how git add
+how git commit
+how git status
+how git pull
+how git push

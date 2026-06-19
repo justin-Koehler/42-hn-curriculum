@@ -1,0 +1,69 @@
+C
+=
+
+Programming language.
+
+
+WHAT IT IS
+----------
+C is a simple, fast programming language.
+Used for system software, games, everything.
+
+
+WHY LEARN C
+-----------
+• Fast and efficient
+• Learn real programming
+• Used everywhere
+• Teaches fundamentals
+• No magic, you control everything
+
+
+BASICS
+------
+#include <stdio.h>     Load library
+int main()             Program starts here
+{ }                    Block of code
+printf()               Print to screen
+return 0;              End program
+
+
+HELLO WORLD
+-----------
+#include <stdio.h>
+
+int main() {
+    printf("Hello World\n");
+    return 0;
+}
+
+
+DATA TYPES
+----------
+int                 Whole numbers
+float               Decimal numbers
+char                Single character
+int array[10]       Multiple values
+
+
+OPERATORS
+---------
++  -  *  /          Math
+=                   Assign
+==                  Compare
+if                  Conditional
+for  while          Loops
+
+
+COMPILE & RUN
+-------------
+gcc program.c -o program
+./program
+
+
+LEARN MORE
+----------
+how gcc
+how make
+how c-variables
+how c-functions

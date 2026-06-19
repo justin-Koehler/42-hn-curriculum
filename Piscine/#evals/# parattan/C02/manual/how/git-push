@@ -1,0 +1,43 @@
+GIT PUSH
+========
+
+Upload your commits to remote repository.
+
+
+BASIC
+-----
+git push
+
+Sends your commits to GitHub/GitLab.
+
+
+WHAT IT DOES
+------------
+• Uploads your commits
+• Updates remote branch
+• Shares your work
+
+
+WHEN TO USE
+-----------
+After committing your changes.
+When ready to share with others.
+
+
+OPTIONS
+-------
+Push to specific branch:
+  git push origin main
+
+Force push (careful!):
+  git push --force
+
+Push new branch:
+  git push -u origin feature-name
+
+
+ERRORS
+------
+"rejected"           → Pull first, then push
+"no remote"          → Add remote with git remote add
+"permission denied"  → Check your access rights

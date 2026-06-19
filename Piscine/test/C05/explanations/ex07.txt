@@ -1,0 +1,16 @@
+Ex07 – ft_find_next_prime
+
+Goal (in simple words):
+Return the smallest prime number that is >= nb.
+
+What you are expected to do:
+- If nb <= 2, return 2.
+- Otherwise test numbers until you find a prime.
+
+How to write it (step-by-step):
+1) If nb <= 2, return 2.
+2) While ft_is_prime(nb) is false, increment nb.
+3) Return nb.
+
+Why it works:
+- You check each number until the next prime is found.

@@ -1,0 +1,77 @@
+C - RECURSION
+==============
+
+Function calling itself.
+
+
+BASIC RECURSION
+----------------
+int factorial(int n) {
+    if (n == 0)
+        return 1;
+    return n * factorial(n - 1);
+}
+
+
+HOW IT WORKS
+------------
+factorial(5)
+  = 5 * factorial(4)
+    = 5 * 4 * factorial(3)
+      = 5 * 4 * 3 * factorial(2)
+        = 5 * 4 * 3 * 2 * factorial(1)
+          = 5 * 4 * 3 * 2 * 1 * 0!
+          = 120
+
+
+BASE CASE
+---------
+Every recursion needs a base case.
+Where the function stops calling itself.
+
+if (n == 0)     ← Base case
+    return 1;
+
+
+RECURSIVE CASE
+---------------
+The function calls itself with smaller input.
+
+return n * factorial(n - 1);   ← Recursive call
+
+
+EXAMPLES
+--------
+Count down:
+void countdown(int n) {
+    if (n == 0)
+        printf("Done!\n");
+    else {
+        printf("%d\n", n);
+        countdown(n - 1);
+    }
+}
+
+
+WHEN TO USE
+-----------
+Tree structures
+Divide and conquer
+Factorial, Fibonacci
+File system traversal
+
+
+COMMON ERRORS
+-------------
+No base case → Stack overflow
+Never reaches base → Infinite recursion
+Too deep → Stack overflow
+
+
+TIPS
+----
+Always have base case.
+Always progress toward base case.
+Test with small numbers.
+Recursion can be slow.
+Loops often faster.

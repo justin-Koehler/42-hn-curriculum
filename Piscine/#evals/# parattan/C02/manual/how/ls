@@ -1,0 +1,45 @@
+LS
+==
+
+List files and folders.
+
+
+BASIC
+-----
+ls
+
+Shows files in current directory.
+
+
+OPTIONS
+-------
+Detailed view:
+  ls -l
+
+Show hidden files:
+  ls -a
+
+Both combined:
+  ls -la
+
+Human readable sizes:
+  ls -lh
+
+
+WHAT YOU SEE
+------------
+-rw-r--r--   File permissions
+1            Number of links
+user         Owner
+group        Group
+1234         Size in bytes
+Jan 1 12:00  Last modified
+file.txt     Name
+
+
+COLORS
+------
+Blue    = Directory
+White   = File
+Green   = Executable
+Red     = Archive

@@ -1,0 +1,20 @@
+Ex01 – ft_recursive_factorial
+
+Goal (in simple words):
+Compute the factorial using recursion.
+
+What you are expected to do:
+- If nb is negative, return 0.
+- If nb is 0 or 1, return 1.
+- Otherwise return nb * factorial(nb - 1).
+
+How to write it (step-by-step):
+1) Handle negative: return 0.
+2) Base case: if nb <= 1 return 1.
+3) Recursive case: return nb * ft_recursive_factorial(nb - 1).
+
+Why it works:
+- Each call reduces nb until it reaches the base case.
+
+Beginner tips:
+- Without a base case, recursion never ends.

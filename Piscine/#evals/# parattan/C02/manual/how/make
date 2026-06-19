@@ -1,0 +1,72 @@
+MAKE
+====
+
+Build tool - compile multiple files easily.
+
+
+BASIC
+-----
+make
+
+Reads Makefile and compiles.
+
+
+WHAT IT DOES
+------------
+• Compiles only changed files
+• Saves time on big projects
+• Automates build process
+
+
+MAKEFILE
+--------
+Create file named "Makefile":
+
+all: program
+
+program: main.c
+	gcc main.c -o program
+
+clean:
+	rm program
+
+
+COMMON TARGETS
+---------------
+make            Build program
+make clean      Delete binaries
+make rebuild    Clean then build
+make run        Run program
+
+
+EXAMPLE MAKEFILE
+-----------------
+CC = gcc
+CFLAGS = -Wall -Wextra
+TARGET = myprogram
+
+all: $(TARGET)
+
+$(TARGET): main.c helper.c
+	$(CC) $(CFLAGS) main.c helper.c -o $(TARGET)
+
+clean:
+	rm $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+
+BENEFITS
+--------
+• One command to build
+• Automatic compilation
+• Skip unchanged files
+• Share with others
+
+
+TIPS
+----
+Indentation matters in Makefile.
+Use Tab not spaces before commands.
+Simple but powerful tool.

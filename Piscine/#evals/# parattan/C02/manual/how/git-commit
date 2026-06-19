@@ -1,0 +1,42 @@
+GIT COMMIT
+==========
+
+Save your changes permanently.
+
+
+BASIC
+-----
+git commit -m "Your message here"
+
+Always describe what you changed.
+
+
+OPTIONS
+-------
+Quick commit all changes:
+  git commit -am "Message"
+
+Opens editor for long message:
+  git commit
+
+
+GOOD MESSAGES
+-------------
+✓ "Fix login bug"
+✓ "Add user profile page"
+✗ "changes"
+✗ "stuff"
+
+
+WHAT IT DOES
+------------
+• Saves staged changes
+• Creates a snapshot
+• Records who and when
+• Adds to project history
+
+
+ERRORS
+------
+"nothing to commit"     → Run git add first
+"please tell me who"    → Set git config

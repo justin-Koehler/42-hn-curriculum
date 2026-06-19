@@ -1,0 +1,21 @@
+Exercise 00: ft_strdup
+
+Goal: Duplicate a string by allocating new memory and copying all characters.
+
+What it does:
+- Takes a source string as input
+- Calculates the length of the string
+- Allocates memory for a copy (length + 1 for null terminator)
+- Copies all characters to the new memory
+- Returns pointer to the new string
+
+Key points:
+- Use malloc to allocate memory on the heap
+- Don't forget space for '\0' at the end
+- Check if malloc fails (returns NULL)
+- The caller must free the returned string later
+
+Common mistakes:
+- Forgetting to allocate space for null terminator
+- Not checking if malloc returns NULL
+- Not adding '\0' at the end

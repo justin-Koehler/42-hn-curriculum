@@ -1,0 +1,18 @@
+Ex03 – ft_sort_params
+
+Goal (simple):
+Sort the arguments in ASCII order and print them.
+
+What is expected:
+- main function is required.
+- argv[1] to argv[argc - 1] are sorted.
+- Print one argument per line in sorted order.
+
+How to write it (step by step):
+1) Write a compare function like strcmp.
+2) Sort argv with a simple algorithm (e.g., bubble sort).
+3) Print each argument with write.
+
+Why it works:
+- strcmp gives ASCII order.
+- Sorting arranges the arguments correctly.

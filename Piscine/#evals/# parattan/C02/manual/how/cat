@@ -1,0 +1,45 @@
+CAT
+===
+
+Display file contents.
+
+
+BASIC
+-----
+cat file.txt
+
+Shows entire file in terminal.
+
+
+OPTIONS
+-------
+Multiple files:
+  cat file1.txt file2.txt
+
+Show line numbers:
+  cat -n file.txt
+
+Create file:
+  cat > newfile.txt
+  (type content, press Ctrl+D)
+
+
+COMBINE FILES
+-------------
+cat file1.txt file2.txt > combined.txt
+
+Merges files into one.
+
+
+WHEN TO USE
+-----------
+• Quick view of small files
+• Combine files
+• Create simple files
+
+
+FOR LARGE FILES
+---------------
+Use less or more instead:
+  less bigfile.txt
+  (press q to exit)

@@ -1,0 +1,82 @@
+C - IF/ELSE
+============
+
+Make decisions in your program.
+
+
+IF STATEMENT
+------------
+if (age >= 18) {
+    printf("Adult\n");
+}
+
+Runs code only if condition is true.
+
+
+IF-ELSE
+-------
+if (x > 10) {
+    printf("Big\n");
+} else {
+    printf("Small\n");
+}
+
+
+IF-ELSE IF-ELSE
+----------------
+if (grade == 'A') {
+    printf("Excellent\n");
+} else if (grade == 'B') {
+    printf("Good\n");
+} else {
+    printf("Try again\n");
+}
+
+
+COMPARISON OPERATORS
+---------------------
+==   Equal
+!=   Not equal
+>    Greater than
+<    Less than
+>=   Greater or equal
+<=   Less or equal
+
+
+LOGICAL OPERATORS
+------------------
+&&   AND
+||   OR
+!    NOT
+
+
+EXAMPLES
+--------
+if (x > 0 && x < 10)
+    printf("Between 1-9\n");
+
+if (x < 0 || x > 100)
+    printf("Out of range\n");
+
+
+TERNARY OPERATOR
+-----------------
+int max = (a > b) ? a : b;
+
+Shorthand for if-else.
+
+
+COMMON ERRORS
+-------------
+Using = instead of ==
+Forgetting && or ||
+Condition never true
+Logic errors
+
+
+TIPS
+----
+Test all branches.
+Use braces always.
+Comment complex conditions.
+Break into functions for clarity.

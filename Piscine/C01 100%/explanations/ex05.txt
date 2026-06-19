@@ -1,0 +1,20 @@
+Ex05 – ft_putstr
+
+Goal (in simple words):
+Print a string (a sequence of characters).
+
+What you are expected to do:
+- The function receives a char *str.
+- Print every character until you reach '\0'.
+
+How to write it (step-by-step):
+1) Use an index i = 0.
+2) While str[i] is not '\0', write str[i].
+3) Increment i each time.
+
+Why it works:
+- In C, strings end with a null character '\0'.
+
+Beginner tips:
+- Print one character at a time with write.
+- Do not add extra spaces or newlines.

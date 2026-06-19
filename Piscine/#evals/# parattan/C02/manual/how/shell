@@ -1,0 +1,58 @@
+SHELL
+=====
+
+Your command-line interface.
+
+
+WHAT IT IS
+----------
+The shell is where you type commands.
+It talks to your computer's operating system.
+
+
+COMMON SHELLS
+-------------
+bash    Most common
+zsh     Mac default, powerful
+sh      Simple, everywhere
+
+
+BASICS
+------
+pwd             Where am I?
+ls              List files
+cd folder       Enter folder
+cd ..           Go up one level
+mkdir name      Create folder
+rm file         Delete file
+
+
+NAVIGATION
+----------
+~               Home directory
+.               Current directory
+..              Parent directory
+/               Root directory
+
+
+SPECIAL KEYS
+------------
+Tab             Auto-complete
+Ctrl+C          Stop command
+Ctrl+D          Exit shell
+Up/Down arrows  Command history
+
+
+PIPES & REDIRECTION
+-------------------
+command > file      Save output to file
+command >> file     Append to file
+command1 | command2 Pipe output
+
+
+LEARN MORE
+----------
+how ls
+how cd
+how mkdir
+how cat

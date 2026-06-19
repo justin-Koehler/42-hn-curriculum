@@ -1,0 +1,66 @@
+C - FUNCTIONS
+==============
+
+Reusable blocks of code.
+
+
+BASIC FUNCTION
+---------------
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(5, 3);
+    printf("%d\n", result);
+}
+
+
+SYNTAX
+------
+return_type name(parameters) {
+    code
+    return value;
+}
+
+
+RETURN TYPES
+------------
+int             Returns whole number
+float           Returns decimal
+char            Returns character
+void            Returns nothing
+
+
+PARAMETERS
+----------
+int add(int a, int b)
+
+a and b are parameters.
+You pass values when calling.
+
+
+EXAMPLE
+-------
+void greet(char *name) {
+    printf("Hello %s\n", name);
+}
+
+greet("Alice");
+
+
+NO RETURN
+---------
+void printNumber(int x) {
+    printf("Number: %d\n", x);
+}
+
+No return statement needed.
+
+
+TIPS
+----
+Functions organize code.
+Give clear names.
+Keep functions small.
+One job per function.

@@ -1,0 +1,71 @@
+C - MEMORY
+===========
+
+Understanding how memory works.
+
+
+MEMORY TYPES
+------------
+Stack    Local variables, fast, limited
+Heap     Dynamic memory, large, manual
+
+
+MALLOC - ALLOCATE MEMORY
+-------------------------
+int *arr = (int *)malloc(10 * sizeof(int));
+
+Allocates 10 integers on heap.
+Returns pointer to first element.
+
+
+FREE - DEALLOCATE
+------------------
+free(arr);
+
+Release memory back to system.
+Important: Always free what you malloc.
+
+
+SIZEOF OPERATOR
+----------------
+sizeof(int)      How many bytes
+sizeof(char)     Usually 1
+sizeof(double)   Usually 8
+
+
+EXAMPLE
+-------
+int *ptr = (int *)malloc(5 * sizeof(int));
+if (ptr == NULL) {
+    printf("Memory allocation failed\n");
+    return;
+}
+
+ptr[0] = 10;
+ptr[1] = 20;
+
+free(ptr);
+
+
+COMMON ERRORS
+-------------
+Forgot to free → Memory leak
+Free twice → Crash
+Access after free → Crash
+malloc failure → Crash without check
+
+
+VALGRIND - CHECK LEAKS
+------------------------
+valgrind --leak-check=full ./program
+
+Shows memory problems.
+
+
+TIPS
+----
+Always check malloc returned non-NULL.
+Free in reverse order of allocation.
+Every malloc needs a free.
+Use valgrind to find leaks.
+Learn this carefully.

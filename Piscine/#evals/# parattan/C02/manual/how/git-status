@@ -1,0 +1,39 @@
+GIT STATUS
+==========
+
+Show what changed in your repository.
+
+
+BASIC
+-----
+git status
+
+Shows:
+• Modified files
+• New files
+• Deleted files
+• Current branch
+
+
+SHORT VERSION
+-------------
+git status -s
+
+Compact view with symbols:
+  M  = Modified
+  A  = Added
+  D  = Deleted
+  ?? = Untracked
+
+
+WHAT IT TELLS YOU
+-----------------
+• Files ready to commit (green)
+• Files not staged yet (red)
+• Untracked files
+• Your branch status
+
+
+ERRORS
+------
+"not a git repository"  → Run git init first

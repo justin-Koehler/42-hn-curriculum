@@ -1,0 +1,23 @@
+Ex03 – ft_print_numbers
+
+Goal (in simple words):
+Print the digits 0 to 9 in order, without spaces.
+
+What you are expected to do:
+- Output: 0123456789
+- No spaces, no commas, no newline unless the subject says so.
+
+How to write it (step-by-step):
+1) Create a char variable and set it to '0'.
+2) While the digit is not past '9', keep looping.
+3) Inside the loop, print the current digit with write.
+4) Increase the digit by 1 (c++).
+
+Why it works:
+- Digits in ASCII are consecutive numbers.
+- When you do c++, you move to the next digit.
+
+Beginner tips:
+- Use a loop because you must print 10 characters.
+- Each loop prints exactly one character.
+- Only write is allowed.

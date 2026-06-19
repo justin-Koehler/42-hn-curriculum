@@ -1,0 +1,56 @@
+SUDO
+====
+
+Run command with admin rights.
+
+
+BASIC
+-----
+sudo command
+
+Asks for password first.
+Then runs command as admin.
+
+
+EXAMPLE
+-------
+sudo apt-get update
+
+Installs system updates.
+
+
+WHEN TO USE
+-----------
+• Install software
+• Edit system files
+• Change permissions
+• System administration
+
+
+WARNING
+-------
+Be careful with sudo!
+Wrong commands can break system.
+Only use when necessary.
+
+
+COMMON
+------
+sudo apt-get install    Install package (Linux)
+sudo systemctl restart  Restart service
+sudo cat /var/log/file  Read system logs
+sudo rm -r folder       Delete as admin
+
+
+PASSWORD
+--------
+Prompts for your password.
+Nothing shows while typing.
+Press Enter when done.
+
+
+TIPS
+----
+Don't use sudo casually.
+Understand what command does first.
+Ask before using sudo if unsure.

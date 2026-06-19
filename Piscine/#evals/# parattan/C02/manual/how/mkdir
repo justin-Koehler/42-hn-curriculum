@@ -1,0 +1,39 @@
+MKDIR
+=====
+
+Create new directory.
+
+
+BASIC
+-----
+mkdir folder
+
+Creates "folder" in current location.
+
+
+OPTIONS
+-------
+Create nested folders:
+  mkdir -p project/src/components
+
+Multiple folders:
+  mkdir folder1 folder2 folder3
+
+
+WHAT IT DOES
+------------
+• Creates empty folder
+• Sets default permissions
+• Ready to use immediately
+
+
+TIPS
+----
+Use -p to create parent folders automatically.
+Use ls to verify it was created.
+
+
+ERRORS
+------
+"file exists"    → Folder already exists
+"permission"     → No write access

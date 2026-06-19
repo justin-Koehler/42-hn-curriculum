@@ -1,0 +1,23 @@
+Ex01 – ft_print_alphabet
+
+Goal (in simple words):
+Print all lowercase letters from a to z, in order, without spaces.
+
+What you are expected to do:
+- Output: abcdefghijklmnopqrstuvwxyz
+- No spaces, no commas, no newline unless the subject says so.
+
+How to write it (step-by-step):
+1) Create a char variable and set it to 'a'.
+2) While the letter is not past 'z', keep looping.
+3) Inside the loop, print the current letter with write.
+4) Increase the letter by 1 (c++).
+
+Why it works:
+- In ASCII, 'a', 'b', 'c' are consecutive numbers.
+- When you do c++, you move to the next letter.
+
+Beginner tips:
+- Use a loop because you must print 26 characters.
+- Each loop prints exactly one character.
+- Only write is allowed.

@@ -1,0 +1,65 @@
+VIM
+===
+
+Powerful text editor.
+
+
+BASIC
+-----
+vim file.txt
+
+Opens file in Vim.
+
+
+MODES
+-----
+Normal mode     Move, delete, copy
+Insert mode     Type text
+Command mode    Save, exit, search
+
+
+SWITCH MODES
+------------
+i               Enter insert mode
+Esc             Exit to normal mode
+:               Enter command mode
+
+
+BASIC COMMANDS
+---------------
+h j k l         Move left/down/up/right
+dd              Delete line
+yy              Copy line
+p               Paste
+u               Undo
+Ctrl+R          Redo
+
+
+SAVE & EXIT
+-----------
+:w              Save
+:q              Quit
+:wq             Save & quit
+:q!             Quit without save
+
+
+SEARCH
+------
+/text           Search for text
+n               Next match
+N               Previous match
+
+
+INSERT TEXT
+-----------
+i               Insert before cursor
+a               Insert after cursor
+o               New line below
+O               New line above
+
+
+TIPS
+----
+Vim has a steep learning curve.
+Try nano first as beginner.
+Type :help inside Vim for help.

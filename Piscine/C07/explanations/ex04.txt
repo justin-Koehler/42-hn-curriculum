@@ -1,0 +1,33 @@
+Exercise 04: ft_convert_base
+
+Goal: Convert a number from one base to another.
+
+What it does:
+- Reads number string in base_from
+- Converts to decimal (intermediate step)
+- Converts decimal to base_to
+- Returns result as string
+
+Important:
+- Must validate both bases (no duplicates, length >= 2, no +/- or whitespace)
+- Handle negative numbers
+- Input follows ft_atoi_base rules (skip whitespace, read signs)
+- Return NULL if bases are invalid
+
+Steps:
+1. Check if bases are valid
+2. Parse nbr string using base_from → get decimal value
+3. Convert decimal value to base_to string
+4. Return result
+
+Example:
+ft_convert_base("1010", "01", "0123456789")
+Binary "1010" → decimal 10 → "10"
+
+ft_convert_base("FF", "0123456789ABCDEF", "01")
+Hex "FF" → decimal 255 → binary "11111111"
+
+Common mistakes:
+- Not validating bases properly
+- Forgetting to handle negative numbers
+- Not handling base characters correctly

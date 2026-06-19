@@ -1,0 +1,16 @@
+Ex01 – ft_print_params
+
+Goal (simple):
+Print all arguments (except the program name) in the same order.
+
+What is expected:
+- main function is required.
+- argv[1] to argv[argc - 1] are printed, each on a new line.
+
+How to write it (step by step):
+1) Start with i = 1 (skip argv[0]).
+2) For each argument, print it character by character.
+3) After each argument, print a newline.
+
+Why it works:
+- argv contains all arguments; argv[0] is the program name.

@@ -1,0 +1,46 @@
+GREP
+====
+
+Search for text in files.
+
+
+BASIC
+-----
+grep "text" file.txt
+
+Finds all lines with "text".
+
+
+SEARCH MULTIPLE FILES
+---------------------
+grep "text" *.txt
+
+Searches all .txt files.
+
+
+OPTIONS
+-------
+Case insensitive:
+  grep -i "text" file.txt
+
+Show line numbers:
+  grep -n "text" file.txt
+
+Invert (lines without text):
+  grep -v "text" file.txt
+
+Count matches:
+  grep -c "text" file.txt
+
+
+PATTERNS
+--------
+grep "^start" file.txt    Lines starting with "start"
+grep "end$" file.txt      Lines ending with "end"
+grep "a.c" file.txt       a + any char + c
+
+
+EXAMPLE
+-------
+grep "error" logfile.txt
+grep -in "warning" *.log

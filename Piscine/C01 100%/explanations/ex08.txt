@@ -1,0 +1,20 @@
+Ex08 – ft_sort_int_tab
+
+Goal (in simple words):
+Sort an array of integers in ascending order.
+
+What you are expected to do:
+- The function receives an int array and its size.
+- After the function, the array is sorted from smallest to largest.
+
+How to write it (step-by-step):
+1) Use a simple sorting algorithm (like bubble sort).
+2) Compare elements and swap if out of order.
+3) Repeat until no swaps are needed.
+
+Why it works:
+- Bubble sort repeatedly pushes the largest values to the end.
+
+Beginner tips:
+- Keep it simple; efficiency is not required here.
+- Do not print anything.

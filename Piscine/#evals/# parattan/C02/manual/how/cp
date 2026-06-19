@@ -1,0 +1,45 @@
+CP
+==
+
+Copy files or folders.
+
+
+BASIC
+-----
+cp original.txt copy.txt
+
+Creates a copy of the file.
+
+
+OPTIONS
+-------
+Copy folder and contents:
+  cp -r folder backup
+
+Preserve permissions:
+  cp -p file.txt copy.txt
+
+Both combined:
+  cp -rp original backup
+
+
+WHAT IT DOES
+------------
+• Creates exact copy
+• Original stays unchanged
+• New file is independent
+
+
+COPY TO FOLDER
+---------------
+cp file.txt folder/
+
+Copies file into folder.
+Keeps same name.
+
+
+ERRORS
+------
+"file exists"       → Destination exists
+"no such file"      → Original doesn't exist
+"permission denied" → No write access

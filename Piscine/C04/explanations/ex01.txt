@@ -1,0 +1,15 @@
+Ex01 – ft_putstr
+
+Goal (in simple words):
+Print a string to standard output.
+
+What you are expected to do:
+- Print each character until '\0'.
+
+How to write it (step-by-step):
+1) Start i = 0.
+2) While str[i] != '\0', write str[i].
+3) Increment i.
+
+Why it works:
+- You print every character in order.

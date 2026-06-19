@@ -1,0 +1,18 @@
+Ex03 – ft_atoi
+
+Goal (in simple words):
+Convert a string to an integer.
+
+What you are expected to do:
+- Skip whitespace.
+- Read optional '+' or '-' signs.
+- Read digits and build the number.
+
+How to write it (step-by-step):
+1) Skip spaces and control characters.
+2) Read signs; count how many '-'.
+3) Build the number while the char is a digit.
+4) Apply sign and return.
+
+Why it works:
+- It follows the standard atoi behavior.

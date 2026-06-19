@@ -1,0 +1,43 @@
+TOUCH
+=====
+
+Create empty file or update timestamp.
+
+
+BASIC
+-----
+touch newfile.txt
+
+Creates empty file.
+
+
+UPDATE TIMESTAMP
+----------------
+touch existing.txt
+
+Updates "last modified" time.
+
+
+CREATE MULTIPLE
+---------------
+touch file1.txt file2.txt file3.txt
+
+
+WHEN TO USE
+-----------
+• Quick create empty file
+• Create placeholder
+• Update file modification date
+
+
+TIPS
+----
+File is created but empty.
+Use echo or cat to add content.
+Useful for testing.
+
+
+SEE ALSO
+--------
+echo > newfile.txt    Alternative way
+cat > newfile.txt     For longer content

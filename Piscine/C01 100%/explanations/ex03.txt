@@ -1,0 +1,19 @@
+Ex03 – ft_div_mod
+
+Goal (in simple words):
+Compute division and modulo of two integers.
+
+What you are expected to do:
+- The function receives a and b, plus pointers div and mod.
+- Store a / b in *div and a % b in *mod.
+
+How to write it (step-by-step):
+1) *div = a / b;
+2) *mod = a % b;
+
+Why it works:
+- / gives the quotient, % gives the remainder.
+
+Beginner tips:
+- Assume b is not 0 (per subject).
+- Do not print anything.

@@ -1,0 +1,58 @@
+C01 Coding Basics (English)
+
+Pointers (addresses)
+- A pointer stores the memory address of a variable.
+- Example: int *p; means p can store the address of an int.
+
+Address-of operator (&)
+- &x gives the address of x.
+- Example: p = &x; now p points to x.
+
+Dereference operator (*)
+- *p means “the value at the address stored in p”.
+- Example: *p = 42; changes the original variable.
+
+Pointer levels (multiple *)
+- int **pp is a pointer to a pointer to int.
+- More stars mean more levels of indirection.
+- You must use the same number of * to reach the final value.
+
+Swapping with pointers
+- Use a temporary variable to avoid losing a value.
+- Steps: temp = *a; *a = *b; *b = temp;
+
+Division and modulo
+- / gives the quotient (integer division).
+- % gives the remainder.
+
+Arrays (continuous memory)
+- An array is a sequence of values stored next to each other.
+- The array name acts like a pointer to the first element.
+- Example: tab[0] is the first element.
+
+Array size
+- You must use the size passed to the function to avoid out‑of‑bounds access.
+
+Reversing an array
+- Use two indices: start and end.
+- Swap elements from both ends until they meet.
+
+Sorting (simple)
+- Bubble sort is easiest: compare neighbors and swap if needed.
+- Repeat until everything is in order.
+
+Strings (char *)
+- A string is a char array ending with '\0'.
+- You must stop when you reach '\0'.
+
+String length
+- Count characters until '\0'.
+- The count is the length.
+
+Printing a string
+- Print one character at a time with write.
+- Stop at '\0'.
+
+Tips
+- Do not print anything unless the exercise asks for output.
+- Keep solutions simple and follow the subject strictly.

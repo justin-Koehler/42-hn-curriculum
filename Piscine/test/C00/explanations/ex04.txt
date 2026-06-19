@@ -1,0 +1,22 @@
+Ex04 – ft_is_negative
+
+Goal (in simple words):
+Print one letter: 'N' if the number is negative, otherwise 'P'.
+
+What you are expected to do:
+- If n is less than 0 → print 'N'.
+- If n is 0 or positive → print 'P'.
+
+How to write it (step-by-step):
+1) Use an if statement to check n < 0.
+2) If true, call write with 'N'.
+3) Else, call write with 'P'.
+
+Why it works:
+- The condition n < 0 separates negative from non‑negative numbers.
+- Only one character is printed, exactly as required.
+
+Beginner tips:
+- Do not print words like "negative" or "positive".
+- Output must be exactly one character.
+- Only write is allowed.

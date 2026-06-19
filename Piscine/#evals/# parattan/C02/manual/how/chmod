@@ -1,0 +1,62 @@
+CHMOD
+=====
+
+Change file permissions.
+
+
+BASIC
+-----
+chmod +x file.sh
+
+Makes file executable.
+
+
+PERMISSION SYMBOLS
+------------------
++               Add permission
+-               Remove permission
+x               Execute
+r               Read
+w               Write
+
+
+EXAMPLES
+--------
+chmod +x script.sh      Make executable
+chmod -x file.txt       Remove execute
+chmod +r file.txt       Make readable
+chmod -w file.txt       Remove write
+
+
+NUMERIC MODE
+------------
+chmod 755 file
+
+4 = read
+2 = write
+1 = execute
+
+755 = rwx r-x r-x
+644 = rw- r-- r--
+700 = rwx --- ---
+
+
+RECURSIVE
+---------
+chmod -R +x folder
+
+Apply to folder and all contents.
+
+
+WHEN TO USE
+-----------
+• Make shell scripts executable
+• Protect sensitive files
+• Grant access to others
+
+
+COMMON
+------
+chmod 755 script.sh     Executable script
+chmod 644 file.txt      Regular file
+chmod 700 secret.txt    Private file

@@ -1,0 +1,66 @@
+C - VARIABLES
+==============
+
+Store data in your program.
+
+
+DECLARING VARIABLES
+--------------------
+int x;              Create integer
+float price;        Create decimal
+char letter;        Create character
+int numbers[10];    Array of 10 integers
+
+
+ASSIGN VALUES
+-------------
+int age = 25;
+float height = 5.8;
+char grade = 'A';
+int arr[3] = {1, 2, 3};
+
+
+DATA TYPES
+----------
+int             Whole numbers (-2,000,000,000 to 2,000,000,000)
+float           Decimals (less precision)
+double          Decimals (more precision)
+char            Single character
+long            Bigger integers
+short           Smaller integers
+
+
+NAMING RULES
+------------
+Must start with letter or underscore
+Can contain letters, numbers, underscores
+No spaces or special characters
+Case sensitive: age ≠ AGE
+
+
+GOOD NAMES
+----------
+✓ player_name
+✓ total_score
+✓ isValid
+✗ x
+✗ data
+✗ a1b2c3
+
+
+SCOPE
+-----
+Variables inside { } only exist there:
+
+int main() {
+    int x = 5;
+    // x exists here
+}
+// x doesn't exist here
+
+
+TIPS
+----
+Name variables clearly.
+Declare close to usage.
+Initialize before using.

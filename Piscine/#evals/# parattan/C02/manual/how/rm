@@ -1,0 +1,44 @@
+RM
+==
+
+Delete files or folders.
+
+
+BASIC
+-----
+rm file.txt
+
+Deletes a file permanently.
+
+
+OPTIONS
+-------
+Delete folder and contents:
+  rm -r folder
+
+Force delete (no confirmation):
+  rm -f file.txt
+
+Delete multiple files:
+  rm file1.txt file2.txt
+
+
+WARNING
+-------
+rm is permanent!
+There is no undo.
+Use carefully.
+
+
+SAFER ALTERNATIVE
+------------------
+mv file.txt trash/
+
+Move to trash instead of deleting.
+Can recover later if needed.
+
+
+ERRORS
+------
+"permission denied" → No write access
+"no such file"      → File doesn't exist

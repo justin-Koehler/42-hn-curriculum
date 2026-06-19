@@ -1,0 +1,28 @@
+Ex08 – ft_ten_queens_puzzle
+
+Goal (in simple words):
+Print all valid ways to place 10 queens on a 10x10 board, and return the count.
+
+Main idea:
+Place one queen per column. For each column, try all rows that are safe.
+
+Important parts:
+1) print_solution:
+   - pos[col] stores the row of the queen in that column.
+   - Print 10 digits (0–9) then a newline.
+
+2) is_safe:
+   - Same row check.
+   - Same diagonal check (row - col).
+   - Same anti-diagonal check (row + col).
+
+3) solve (recursive backtracking):
+   - If col == 10, you found a solution: print and count it.
+   - Otherwise, test each row in the current column and recurse.
+
+Why it works:
+- Backtracking explores all valid placements without illegal ones.
+
+Beginner tips:
+- Recursion is required by the subject.
+- Use an array to remember each queen position.

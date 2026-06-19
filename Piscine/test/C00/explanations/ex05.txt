@@ -1,0 +1,26 @@
+Ex05 – ft_print_comb
+
+Goal (in simple words):
+Print all different 3‑digit combinations in order.
+Example: 012, 013, 014, ... , 789.
+
+What you are expected to do:
+- Use three different digits each time.
+- Digits must be strictly increasing (a < b < c).
+- Separate combinations with ", " except the last one.
+
+How to write it (step-by-step):
+1) Use three nested loops for a, b, c.
+2) Start b at a + 1 and c at b + 1.
+	This guarantees a < b < c automatically.
+3) Print a, b, c as characters using write.
+4) If the combination is not the last (789), print ", ".
+
+Why it works:
+- a < b < c removes duplicates and keeps ascending order.
+- Nested loops cover all possible triples of digits.
+
+Beginner tips:
+- Convert digits to characters by adding '0'.
+- The last combination is 789, so do not print a comma after it.
+- Only write is allowed.

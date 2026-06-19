@@ -1,0 +1,56 @@
+C - STRINGS
+============
+
+Store and manipulate text.
+
+
+STRING BASICS
+-------------
+char word[10] = "Hello";
+char *str = "World";
+
+Strings are arrays of characters.
+Ends with \0 (null terminator).
+
+
+DECLARATION
+-----------
+char name[20];           Array (fixed size)
+char *ptr = "Hello";     Pointer to string
+
+
+FUNCTIONS
+---------
+strlen(str)        Length without \0
+strcpy(dst, src)   Copy string
+strcat(s1, s2)     Combine strings
+strcmp(s1, s2)     Compare strings
+printf("%s", str)  Print string
+
+
+EXAMPLE
+-------
+char greeting[20] = "Hello";
+strcat(greeting, " World");
+printf("%s\n", greeting);   Prints: Hello World
+
+
+INPUT
+-----
+scanf("%s", name);   Read word (careful!)
+fgets(name, 20, stdin); Read line (safer)
+
+
+COMMON ERRORS
+-------------
+Buffer overflow → Write too much data
+Forgot \0 → String not terminated
+scanf with %s → Security risk
+
+
+TIPS
+----
+Always declare enough size.
+Use fgets instead of scanf for input.
+Strings are tricky in C.
+Be careful with memory.

@@ -1,0 +1,19 @@
+Exercise 06: ft_print_comb2
+
+Goal: Print all combinations of two different two-digit numbers in ascending order.
+
+What it does:
+- Prints all possible pairs of numbers from 00 to 99
+- First number must be smaller than second number
+- Format: "00 01, 00 02, ... 98 99"
+
+How it works:
+The program uses two nested loops. The outer loop (variable a) runs from 0 to 98, representing the first number. The inner loop (variable b) starts at a+1 and goes to 99, ensuring the second number is always larger than the first. For each pair, the print_comb2 function splits each number into its two digits using division by 10 (tens digit) and modulo 10 (ones digit), converts them to ASCII characters by adding '0', and outputs them with write(). A comma and space separate each pair, except after the last combination (98 99).
+
+Example output:
+00 01, 00 02, 00 03, ... 01 02, 01 03, ... 98 99
+
+Key points:
+- Two-digit format means 0 becomes "00"
+- Always first < second (no duplicates like 01 01)
+- Comma only between pairs, not at the end

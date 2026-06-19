@@ -1,0 +1,39 @@
+Exercise 05: ft_split
+
+Goal: Split a string into an array of substrings using multiple separators.
+
+What it does:
+- Splits string wherever ANY character from charset appears
+- Returns array of strings (char **)
+- Array ends with NULL pointer
+- No empty strings in result
+
+Key points:
+- Any character in charset is a separator
+- Consecutive separators create only one split (no empty strings)
+- Count words first to know array size
+- Allocate array of pointers + 1 (for NULL)
+- Allocate each individual word
+- Set last element to NULL
+
+Example:
+str = "Hello,World,,42", charset = ","
+Result: ["Hello", "World", "42", NULL]
+
+str = "one::two:::three", charset = ":"
+Result: ["one", "two", "three", NULL]
+
+Steps:
+1. Count how many words (transitions from separator to non-separator)
+2. Allocate array of char* (word_count + 1)
+3. Loop through string:
+   - Skip separators
+   - Find word start and length
+   - Allocate and copy word
+4. Add NULL at end
+
+Common mistakes:
+- Creating empty strings (consecutive separators)
+- Forgetting NULL terminator in array
+- Not allocating individual words
+- Memory leaks on allocation failure

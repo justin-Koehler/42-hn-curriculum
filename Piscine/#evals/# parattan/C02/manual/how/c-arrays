@@ -1,0 +1,61 @@
+C - ARRAYS
+===========
+
+Store multiple values of same type.
+
+
+BASIC ARRAY
+-----------
+int numbers[5];          Array of 5 integers
+numbers[0] = 10;         First element
+numbers[4] = 50;         Last element (index 4)
+
+
+INITIALIZATION
+---------------
+int arr[3] = {1, 2, 3};
+int list[] = {10, 20, 30};   Size auto-detected
+char name[10];               Empty array
+
+
+ACCESS ELEMENTS
+---------------
+arr[0]     First element
+arr[2]     Third element
+arr[i]     Element at index i
+
+
+LOOPS WITH ARRAYS
+------------------
+for (int i = 0; i < 5; i++) {
+    printf("%d\n", arr[i]);
+}
+
+
+MULTI-DIMENSIONAL
+------------------
+int matrix[3][3];           2D array (3x3)
+matrix[0][0] = 5;           Row 0, Column 0
+matrix[i][j];               Access element
+
+
+COMMON USES
+-----------
+Store numbers
+Store names
+Store grades
+Lookup tables
+
+
+ERRORS
+------
+arr[10] for 5-element array → Out of bounds
+Off-by-one errors → Common mistake
+Uninitialized array → Garbage data
+
+
+TIPS
+----
+Index starts at 0.
+Last index is size - 1.
+Bounds checking is your job.

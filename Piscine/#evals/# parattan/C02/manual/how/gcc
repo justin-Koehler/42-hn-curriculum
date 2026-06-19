@@ -1,0 +1,59 @@
+GCC
+===
+
+C compiler - turns code into program.
+
+
+BASIC
+-----
+gcc program.c
+
+Compiles to a.out
+
+
+CUSTOM NAME
+-----------
+gcc program.c -o myprogram
+
+Creates "myprogram" instead.
+
+
+MULTIPLE FILES
+---------------
+gcc main.c helper.c -o program
+
+Compiles multiple files together.
+
+
+FLAGS
+-----
+-Wall               Show all warnings
+-Wextra             Extra warnings
+-O2                 Optimize code
+-g                  Debug info
+
+
+COMMON
+------
+gcc -Wall -Wextra program.c -o prog
+
+Compile with warnings.
+
+
+ERRORS VS WARNINGS
+------------------
+Error    = Won't compile
+Warning  = Compiles but might be wrong
+
+
+DEBUG
+-----
+gcc -g program.c -o prog
+gdb prog           Debug with GDB
+
+
+TIPS
+----
+Always compile with -Wall
+Fix warnings before submitting.
+Warnings save you from bugs.

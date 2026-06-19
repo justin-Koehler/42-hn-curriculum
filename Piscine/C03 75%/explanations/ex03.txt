@@ -1,0 +1,17 @@
+Ex03 – ft_strncat
+
+Goal (in simple words):
+Append at most n characters from src to dest.
+
+What you are expected to do:
+- Find the end of dest.
+- Copy up to n characters from src.
+- Add '\0' at the end.
+
+How to write it (step-by-step):
+1) Move i to end of dest.
+2) Copy while j < n and src[j] != '\0'.
+3) Finish with '\0'.
+
+Why it works:
+- It prevents copying more than n characters.

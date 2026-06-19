@@ -1,0 +1,24 @@
+Ex00 – ft_putchar
+
+Goal (in simple words):
+Print exactly one character to the screen.
+
+What you are expected to do:
+- The function gets one character (for example 'A').
+- It must print that character and nothing else.
+
+How to write it (step-by-step):
+1) Use the function write.
+2) Call: write(1, &c, 1);
+	- 1 means “print to the terminal”.
+	- &c is the memory address of the character.
+	- 1 means “print 1 byte”.
+
+Why it works:
+- A char in C is 1 byte.
+- write sends that byte to the terminal.
+
+Beginner tips:
+- Do not print extra spaces or newlines.
+- No loops are needed because it is only one character.
+- Only write is allowed in this exercise.

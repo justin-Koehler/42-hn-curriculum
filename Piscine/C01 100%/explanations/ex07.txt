@@ -1,0 +1,21 @@
+Ex07 – ft_rev_int_tab
+
+Goal (in simple words):
+Reverse an array of integers in place.
+
+What you are expected to do:
+- The function receives an int array and its size.
+- After the function, the array is reversed.
+
+How to write it (step-by-step):
+1) Use two indices: start = 0, end = size - 1.
+2) Swap tab[start] and tab[end].
+3) Move start forward and end backward.
+4) Stop when start >= end.
+
+Why it works:
+- Swapping from both ends reverses the array without extra memory.
+
+Beginner tips:
+- Use a temp variable for swapping.
+- Do not print anything.

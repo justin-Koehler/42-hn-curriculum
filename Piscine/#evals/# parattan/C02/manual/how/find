@@ -1,0 +1,52 @@
+FIND
+====
+
+Search for files by name.
+
+
+BASIC
+-----
+find . -name "file.txt"
+
+Searches current folder and subfolders.
+
+
+OPTIONS
+-------
+Find by name:
+  find . -name "*.js"
+
+Search specific folder:
+  find /home -name "photo.jpg"
+
+Find directories:
+  find . -type d -name "src"
+
+Find files (not folders):
+  find . -type f -name "*.py"
+
+
+CASE INSENSITIVE
+-----------------
+find . -iname "FILE.txt"
+
+
+EXECUTE COMMAND
+---------------
+find . -name "*.log" -delete
+
+Deletes all .log files found.
+
+
+TIPS
+----
+. = current directory
+.. = parent directory
+/ = root directory
+
+
+EXAMPLE
+-------
+find . -name "*.txt"
+find /home -name "project" -type d
+find . -name "*.js" -type f

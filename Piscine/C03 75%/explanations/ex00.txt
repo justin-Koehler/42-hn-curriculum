@@ -1,0 +1,16 @@
+Ex00 – ft_strcmp
+
+Goal (in simple words):
+Compare two strings like strcmp.
+
+What you are expected to do:
+- Compare s1 and s2 character by character.
+- Return the difference of the first mismatching characters.
+- Return 0 if both strings are identical.
+
+How to write it (step-by-step):
+1) Loop while s1[i] and s2[i] are not '\0' and equal.
+2) When they differ or one ends, return s1[i] - s2[i].
+
+Why it works:
+- The first difference decides the order.

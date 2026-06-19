@@ -1,0 +1,18 @@
+Ex00 – ft_print_program_name
+
+Goal (simple):
+Print the program name followed by a newline.
+
+What is expected:
+- The file contains a main function.
+- argv[0] holds the program name (e.g., ./a.out).
+- Print argv[0] character by character, then "\n".
+
+How to write it (step by step):
+1) Ignore argc (not needed).
+2) Set i = 0 and loop through argv[0] until '\0'.
+3) Print each character with write.
+4) Print a newline.
+
+Why it works:
+- argv[0] is always the program name.

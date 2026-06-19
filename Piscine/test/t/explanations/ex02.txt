@@ -1,0 +1,16 @@
+Ex02 – ft_putnbr
+
+Goal (in simple words):
+Print an integer number.
+
+What you are expected to do:
+- Handle negative numbers.
+- Print digits from left to right.
+
+How to write it (step-by-step):
+1) If nb is negative, print '-' and make nb positive.
+2) If nb is >= 10, print nb / 10 first (recursion or loop).
+3) Print the last digit: nb % 10.
+
+Why it works:
+- Printing higher digits first ensures correct order.

@@ -1,0 +1,55 @@
+GIT CLONE
+=========
+
+Download a repository to your computer.
+
+
+THE COMMAND
+-----------
+
+git clone https://github.com/user/repo.git
+
+
+WHAT HAPPENS
+------------
+
+• Creates folder named "repo"
+• Downloads all files
+• Sets up Git connection
+• Ready to work immediately
+
+
+CUSTOM NAME
+-----------
+
+git clone https://github.com/user/repo.git my-name
+
+Creates folder "my-name" instead.
+
+
+FASTER DOWNLOAD
+---------------
+
+git clone --depth 1 https://github.com/user/repo.git
+
+Only latest version. Much faster.
+
+
+AFTER CLONING
+-------------
+
+cd repo
+ls
+git status
+
+
+ERRORS & FIXES
+--------------
+
+Repository not found?
+  → Check the URL
+  → Verify internet connection
+
+Permission denied?
+  → Use HTTPS (not SSH)
+  → Check you have access

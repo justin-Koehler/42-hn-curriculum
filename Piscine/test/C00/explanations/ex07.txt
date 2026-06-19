@@ -1,0 +1,23 @@
+Exercise 07: ft_putnbr
+
+Goal: Print an integer number to standard output.
+
+What it does:
+- Takes an integer as parameter
+- Prints it digit by digit
+- Handles negative numbers
+- Must handle INT_MIN (-2147483648)
+
+How it works:
+The function recursively breaks down the number by dividing by 10. For negative numbers, it first prints a minus sign and converts the number to positive (special handling needed for INT_MIN since -INT_MIN overflows). The recursion prints higher-order digits first by calling itself with nb/10, then prints the current digit using nb%10. Each digit is converted to its ASCII character by adding '0' and output with write().
+
+Example:
+- ft_putnbr(42) prints "42"
+- ft_putnbr(-42) prints "-42"
+- ft_putnbr(-2147483648) prints "-2147483648"
+
+Key points:
+- Use recursion to reverse digit order
+- Handle INT_MIN carefully (overflow issue)
+- Convert digits to characters with + '0'
+- Only use write() for output

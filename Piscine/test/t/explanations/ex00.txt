@@ -1,0 +1,16 @@
+Ex00 – ft_strlen
+
+Goal (in simple words):
+Return the length of a string.
+
+What you are expected to do:
+- Count characters until '\0'.
+- Return the count.
+
+How to write it (step-by-step):
+1) Set i = 0.
+2) While str[i] is not '\0', increment i.
+3) Return i.
+
+Why it works:
+- The null terminator marks the end of the string.

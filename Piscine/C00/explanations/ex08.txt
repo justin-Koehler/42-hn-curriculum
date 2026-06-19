@@ -1,0 +1,24 @@
+Exercise 08: ft_print_combn
+
+Goal: Print all combinations of n different digits in ascending order.
+
+What it does:
+- Takes n as parameter (1 to 9)
+- Prints all combinations of n digits where each digit is different
+- Digits must be in strictly ascending order
+- Format with commas between combinations
+
+How it works:
+The program uses an array to store the current combination. It starts with the smallest combination (0,1,2...n-1) and systematically generates all valid combinations. After printing each combination, it increments the last digit. When a digit exceeds its maximum allowed value (considering it must be less than following digits), the algorithm backtracks to the previous position, increments that digit, and resets all following digits to consecutive values. This continues until the first digit reaches its maximum value (10-n).
+
+The print_comb function converts each digit to a character and outputs the combination, adding ", " between combinations except after the last one.
+
+Examples:
+- ft_print_combn(2) prints: 01, 02, 03, ..., 89
+- ft_print_combn(3) prints: 012, 013, ..., 789
+
+Key points:
+- Digits must be strictly increasing (no duplicates)
+- Works for any n from 1 to 9
+- Uses array to track current combination
+- Increment with overflow/carry logic

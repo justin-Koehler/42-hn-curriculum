@@ -1,0 +1,27 @@
+Exercise 03: ft_strjoin
+
+Goal: Join multiple strings with a separator between them.
+
+What it does:
+- Takes an array of strings (strs), number of strings (size), and separator (sep)
+- Concatenates all strings with separator in between
+- Returns the joined string
+
+Key points:
+- Separator goes BETWEEN strings, not after the last one
+- If size is 0, return empty string (not NULL)
+- Calculate total length first: sum of all string lengths + separator * (size - 1)
+- No empty strings should appear in output
+
+Example:
+strs = ["Hello", "World", "42"], sep = " - ", size = 3
+Result: "Hello - World - 42"
+
+strs = ["One"], sep = "XXX", size = 1
+Result: "One" (no separator because only one string)
+
+Common mistakes:
+- Adding separator after last string
+- Not handling size = 0
+- Wrong length calculation (using size instead of size-1 for separators)
+- Forgetting null terminator

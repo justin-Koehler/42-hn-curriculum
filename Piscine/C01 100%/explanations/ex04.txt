@@ -1,0 +1,20 @@
+Ex04 – ft_ultimate_div_mod
+
+Goal (in simple words):
+Replace a with a / b and b with a % b.
+
+What you are expected to do:
+- The function receives pointers to a and b.
+- After the function, *a is the quotient, *b is the remainder.
+
+How to write it (step-by-step):
+1) Save *a in a temp variable.
+2) Compute *a = *a / *b.
+3) Compute *b = temp % *b.
+
+Why it works:
+- You must keep the original a before overwriting it.
+
+Beginner tips:
+- Use a temp variable or you lose the original a.
+- Do not print anything.

@@ -1,0 +1,17 @@
+Ex01 – ft_strncmp
+
+Goal (in simple words):
+Compare two strings up to n characters.
+
+What you are expected to do:
+- Compare at most n characters.
+- Return 0 if all compared characters match.
+- Otherwise return the difference at the first mismatch.
+
+How to write it (step-by-step):
+1) If n == 0, return 0.
+2) Loop while i < n and s1[i] == s2[i] and not '\0'.
+3) If i == n, return 0; else return s1[i] - s2[i].
+
+Why it works:
+- It stops after n characters as required.

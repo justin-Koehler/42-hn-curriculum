@@ -1,0 +1,19 @@
+Ex04 – ft_strstr
+
+Goal (in simple words):
+Find the first occurrence of to_find inside str.
+
+What you are expected to do:
+- If to_find is empty, return str.
+- Otherwise search for the first matching position.
+- Return a pointer to the match, or 0 if not found.
+
+How to write it (step-by-step):
+1) If to_find is empty, return str.
+2) For each position i in str:
+   - Compare str[i + j] with to_find[j].
+   - If all characters match, return &str[i].
+3) If no match, return 0.
+
+Why it works:
+- It checks each possible start position.

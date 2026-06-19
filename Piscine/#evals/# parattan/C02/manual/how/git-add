@@ -1,0 +1,36 @@
+GIT ADD
+=======
+
+Stage files for commit.
+
+
+BASIC
+-----
+git add file.txt
+
+Adds one file to staging area.
+
+
+OPTIONS
+-------
+Add all changes:
+  git add .
+
+Add specific files:
+  git add file1.txt file2.txt
+
+Add by pattern:
+  git add *.js
+
+
+WHAT IT DOES
+------------
+• Prepares files for commit
+• Tells Git to track changes
+• Required before git commit
+
+
+ERRORS
+------
+"not a git repository"  → Run git init first
+"pathspec did not match" → File doesn't exist

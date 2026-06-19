@@ -1,0 +1,41 @@
+CD
+==
+
+Change directory.
+
+
+BASIC
+-----
+cd folder
+
+Enter a folder.
+
+
+SHORTCUTS
+---------
+cd              Go to home
+cd ~            Go to home
+cd ..           Go up one level
+cd ../..        Go up two levels
+cd -            Go to previous directory
+
+
+PATHS
+-----
+Absolute path:
+  cd /home/user/project
+
+Relative path:
+  cd project/src
+
+
+TIPS
+----
+Use Tab to auto-complete folder names.
+Use pwd to see where you are.
+
+
+ERRORS
+------
+"no such file"   → Folder doesn't exist
+"permission"     → No access rights

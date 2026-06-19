@@ -1,0 +1,103 @@
+Coding Basics (English)
+
+What is code?
+- Code is a list of instructions that a computer follows step by step.
+- In C, you write those instructions inside functions.
+
+Variables (boxes for data)
+- A variable is like a named box that stores a value.
+- Example: int n; stores a number. char c; stores one character.
+- You can read a variable, change it, and print it.
+
+Common data types
+- int: whole numbers (e.g., -3, 0, 42).
+- char: a single character (e.g., 'a', '0').
+
+Functions (reusable instructions)
+- A function is a named block of code that does one task.
+- It can receive inputs (parameters) and return a result.
+
+Parameters (inputs)
+- A parameter is the value you give to a function.
+- Example: ft_putchar(char c) receives one character to print.
+
+Return value (output)
+- A function can return a value with return.
+- Example: return 0; sends 0 back to the caller.
+
+Conditions (true/false)
+- A condition checks something, like: n < 0.
+- It is either true or false.
+
+If / Else (decisions)
+- if runs code when the condition is true.
+- else runs code when the condition is false.
+
+Loops (repeat)
+- A loop repeats code.
+- You use it when you want to print many characters or run steps multiple times.
+
+While loop
+- while (condition) keeps running as long as the condition is true.
+
+Counter (keeps track)
+- A counter is a variable that changes each loop step.
+- Example: i++ increases i by 1 each time.
+
+Increment / Decrement
+- x++ means x = x + 1.
+- x-- means x = x - 1.
+
+Nested loops
+- A loop inside another loop. Useful for combinations (like three digits).
+
+ASCII order (why char can be incremented)
+- Characters have numeric codes.
+- 'a', 'b', 'c' are consecutive numbers, so 'a' + 1 is 'b'.
+
+write (printing)
+- write(1, &c, 1) prints exactly one character.
+- 1 = standard output (your terminal).
+- &c = address of the character.
+- 1 = number of bytes to print.
+
+Output format
+- Follow the subject exactly: no extra spaces or newlines.
+
+How to write a basic C function (step-by-step)
+1) Read the subject and copy the function header.
+2) Declare variables at the top of the function.
+3) Give each variable a clear start value.
+4) Use if/else for decisions.
+5) Use a loop when something repeats.
+6) Use write to print exactly what is required.
+7) Return a value if the function must return one.
+
+Example: print n letters starting from 'a'
+int my_function(int n)
+{
+	int i;
+	char c;
+
+	if (n <= 0)
+		return (0);
+	i = 0;
+	while (i < n)
+	{
+		c = 'a' + i;
+		write(1, &c, 1);
+		i++;
+	}
+	return (0);
+}
+
+Why this works:
+- The loop runs n times.
+- Each time, c changes to the next letter.
+- write prints one letter per loop step.
+
+Summary
+- Variables store data.
+- Conditions decide what to do.
+- Loops repeat actions.
+- write prints characters exactly as required.

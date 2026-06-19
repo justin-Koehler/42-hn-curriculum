@@ -1,0 +1,23 @@
+Ex02 – ft_print_reverse_alphabet
+
+Goal (in simple words):
+Print all lowercase letters from z to a, in reverse order, without spaces.
+
+What you are expected to do:
+- Output: zyxwvutsrqponmlkjihgfedcba
+- No spaces, no commas, no newline unless the subject says so.
+
+How to write it (step-by-step):
+1) Create a char variable and set it to 'z'.
+2) While the letter is not before 'a', keep looping.
+3) Inside the loop, print the current letter with write.
+4) Decrease the letter by 1 (c--).
+
+Why it works:
+- In ASCII, letters are consecutive numbers.
+- When you do c--, you move to the previous letter.
+
+Beginner tips:
+- Use a loop because you must print 26 characters.
+- Each loop prints exactly one character.
+- Only write is allowed.

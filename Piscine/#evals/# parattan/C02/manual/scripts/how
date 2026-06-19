@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# How - Display help pages
+# Simple version - reads from ~/.local/share/how
+
+HELP_DIR="$HOME/.local/share/how"
+TOPIC="$(echo "$@" | tr ' ' '-')"
+FILE="$HELP_DIR/$TOPIC"
+
+if [ ! -f "$FILE" ]; then
+  echo "No help for: $@"
+  echo "Available: $(ls "$HELP_DIR/" 2>/dev/null | grep -v README)"
+  exit 1
+fi
+
+# Print in terminal with less pager (press q to exit)
+less "$FILE"

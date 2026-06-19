@@ -1,0 +1,17 @@
+Ex02 – ft_strcat
+
+Goal (in simple words):
+Append src to the end of dest.
+
+What you are expected to do:
+- Find the end of dest.
+- Copy src starting there.
+- Return dest.
+
+How to write it (step-by-step):
+1) Move i to the end of dest (dest[i] == '\0').
+2) Copy src[j] to dest[i] and increment both.
+3) Copy the final '\0'.
+
+Why it works:
+- The '\0' marks where to start appending.

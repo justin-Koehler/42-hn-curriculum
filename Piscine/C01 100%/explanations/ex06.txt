@@ -1,0 +1,19 @@
+Ex06 – ft_strlen
+
+Goal (in simple words):
+Return the length of a string.
+
+What you are expected to do:
+- Count how many characters appear before '\0'.
+
+How to write it (step-by-step):
+1) Set a counter to 0.
+2) While str[i] is not '\0', increment counter.
+3) Return the counter.
+
+Why it works:
+- The null terminator marks the end of the string.
+
+Beginner tips:
+- Do not print anything.
+- Return an int.

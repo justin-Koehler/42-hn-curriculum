@@ -1,0 +1,46 @@
+ECHO
+====
+
+Print text to terminal.
+
+
+BASIC
+-----
+echo "Hello World"
+
+Prints: Hello World
+
+
+VARIABLES
+---------
+echo $HOME
+
+Prints your home directory.
+
+
+CREATE FILE
+-----------
+echo "content" > file.txt
+
+Creates file with content.
+
+
+APPEND TO FILE
+---------------
+echo "more" >> file.txt
+
+Adds content to existing file.
+
+
+SPECIAL
+-------
+echo -n "text"       No newline at end
+echo -e "a\nb"       Interpret escape codes
+
+
+EXAMPLES
+--------
+echo "Done!"
+echo "Line 1"
+echo $USER
+echo "User: $USER"
